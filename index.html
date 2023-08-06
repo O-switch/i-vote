@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container register">
+        <div class="row">
+            <div class="col-md-3 register-left">
+                <img class="logo" src="image/logo.png" alt="" />
+                <h3>Welcome</h3>
+                <p>Great Citzen Of Nigeria!</p>
+                <a href="reg.html"><input type="submit" name="" value="Register" /></a><br />
+            </div>
+            <div class="col-md-9 register-right">
+                <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#" role="tab"
+                            aria-controls="home" aria-selected="true">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="reg.html" role="tab"
+                            aria-controls="profile" aria-selected="false">Register</a>
+                    </li>
+                </ul>
+
+                <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <h3 class="register-heading">Login As A Citizen Of Nigeria</h3>
+                    <div class="row register-form">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email *" value="" required/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" maxlength="11" minlength="11" class="form-control"
+                                    placeholder="Enter Your NIN *" value="" required/>
+                            </div>
+
+
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="Password *" value="" />
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" placeholder="Confirm Password *" value="" />
+                            </div>
+                        </div>
+                        <input type="submit" class="btnRegister" value="Login" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+</body>
+
+</html>

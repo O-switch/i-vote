@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I-vote</title>
+    <link rel="stylesheet" href="css/vote.css">
+    <script src="https://kit.fontawesome.com/f1c4a2d7e1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- side bar menu section -->
+    <section id="sidebar">
+        <div class="side-nav">
+            <div class="user">
+                <img src="/image/logo.png" alt="" class="user-img">
+                <div>
+                    <h1>Voting</h1>
+                    <p>@make your vote count</p>
+                </div>
+                <i class="star">⭐</i>
+            </div>
+            <ul>
+                <li><i class="fa-regular fa-user"></i>
+                    <a href=""> president</a>
+                </li>
+                <li><i class="fa-regular fa-user"></i>
+                    <a href=""> house of rep.</a>
+                </li>
+                <li><i class="fa-sharp fa-regular fa-user"></i>
+                    <a href=""> governor</a>
+                </li>
+                <li><i class="fa-solid fa-user-group"></i>
+                    <a href=""> senator</a>
+                </li>
+                <li><i class="fa-solid fa-user-tie"></i>
+                    <a href=""> honorable</a>
+                </li>
+                <li><i class="fa-solid fa-user"></i>
+                    <a href=""> minister</a>
+                </li><br><br>
+                <li><i class="fa-solid fa-square-poll-vertical"></i>
+                    <a href="">Results</a>
+                </li>
+            </ul>
+            <ul>
+                <li><i class="fa-solid fa-question"></i>
+                    <a href="">help</a>
+                </li>
+                <li class="footer"><i class="fa-solid fa-right-from-bracket"></i>
+                    <a href=""> logout </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- header section  (nav bar)-->
+    <header>
+        <marquee behavior="alternate" direction="">fellow nigerians kindly makes your vote count!</marquee>
+        <div class="header">
+            <img src="/image/logo.png" alt="nigeria-logo">
+            <nav>
+                <h2>INTER-NATIONAL ELECTORAL COMMISSION (INEC)</h2>
+                <div></div>
+                <label for="search">
+                    <input type="search" name="search-box" id="search">
+                    <button onclick="search()" type="submit">Search</button>
+                </label>
+        </div>
+        </nav>
+        </div>
+    </header>
+    <h2 class="sub-h2">Presidential Candidate</h2>
+    <!-- body section cointaing the part details -->
+    <section class="body">
+        <div class="cointainer">
+            <div class="party gird-item">
+                <div class="details">
+                    <img src="/image/apc.jpg" alt="party-logo">
+                    <h3>All Progressive Congress</h3>
+                    <h4>Presidential Candidate</h4>
+                </div>
+
+                <img src="/image/tinubu.jpg" alt="candidate-pic" class="grid-image">
+                <h2>Bola Ahmed Tinubu </h2>
+                <input type="radio" name="gender" id="">
+                <button class="vote"><i class="fa-regular fa-thumbs-up fa-bounce"></i></button>
+            </div>
+
+            <div class="party gird-item">
+                <div class="details">
+                    <img src="/image/pdp.png" alt="party-logo">
+                    <h3>People Democratic Party</h3>
+                    <h4>Presidential Candidate</h4>
+                </div>
+
+                <img src="/image/atiku.jpg" alt="candidate-pic" class="grid-image">
+                <h2>Atiku Abubakar</h2>
+                <input type="radio" name="gender" id="">
+                <button class="vote"><i class="fa-regular fa-thumbs-up fa-bounce"></i></button>
+            </div>
+
+            <div class="party gird-item">
+                <div class="details">
+                    <img src="/image/elllu p.png" alt="party-logo">
+                    <h3>Labour Party</h3>
+                    <h4>Presidential Candidate</h4>
+                </div>
+
+                <img src="/image/obi.jpg" alt="candidate-pic" class="grid-image">
+                <h2>Peter Obi</h2>
+                <input type="radio" name="gender" id="">
+                <button class="vote"><i class="fa-regular fa-thumbs-up fa-bounce"></i></button>
+            </div>
+
+            <div class="party gird-item">
+                <div class="details">
+                    <img src="/image/nnpc.jpg" alt="party-logo">
+                    <h3>NNPCS</h3>
+                    <h4>Presidential Candidate</h4>
+                </div>
+
+                <img src="/image/kwankwaso.jpg" alt="candidate-pic" class="grid-image">
+                <h2>Rabiu Kwankwaso</h2>
+                <input type="radio" name="gender" id="">
+                <button class="vote"><i class="fa-regular fa-thumbs-up fa-bounce"></i></button>
+            </div>
+
+            <div class="party gird-item">
+                <div class="details">
+                    <img src="/image/adc.png" alt="party-logo">
+                    <h3>ADC</h3>
+                    <h4>Presidential Candidate</h4>
+                </div>
+
+                <img src="/image/vector.png" alt="candidate-pic" class="grid-image">
+                <h2>Candidate Name</h2>
+                <input type="radio" name="gender" id="">
+                <button class="vote"><i class="fa-regular fa-thumbs-up fa-bounce"></i></button>
+            </div>
+            <div class="party gird-item">
+                <div class="details">
+                    <img src="/image/accord.jpg" alt="party-logo">
+                    <h3>Accord</h3>
+                    <h4>Presidential Candidate</h4>
+                </div>
+
+                <img src="/image/vector.png" alt="candidate-pic" class="grid-image">
+                <h2>Candidate Name</h2>
+                <input type="radio" name="gender" id="">
+                <button class="vote"><i class="fa-regular fa-thumbs-up fa-bounce"></i></button>
+            </div>
+        </div>
+
+        <div class="cointainer">
+            <div class="party gird-item">
+                <div class="details">
+                    <img src="/image/logo.png" alt="party-logo">
+                    <h3>Party Name</h3>
+                    <h4>Candidate Position</h4>
+                </div>
+
+                <img src="/image/vector.png" alt="candidate-pic" class="grid-image">
+                <h2>Candidate Name</h2>
+                <input type="radio" name="gender" id="">
+                <button class="vote"><i class="fa-regular fa-thumbs-up fa-bounce"></i></button>
+            </div>
+
+            <div class="party gird-item">
+                <div class="details">
+                    <img src="/image/logo.png" alt="party-logo">
+                    <h3>Party Name</h3>
+                    <h4>Candidate Position</h4>
+                </div>
+
+                <img src="/image/vector.png" alt="candidate-pic" class="grid-image">
+                <h2>Candidate Name</h2>
+                <input type="radio" name="gender" id="">
+                <button class="vote"><i class="fa-regular fa-thumbs-up fa-bounce"></i></button>
+            </div>
+
+            <div class="party gird-item">
+                <div class="details">
+                    <img src="/image/logo.png" alt="party-logo">
+                    <h3>Party Name</h3>
+                    <h4>Candidate Position</h4>
+                </div>
+
+                <img src="/image/vector.png" alt="candidate-pic" class="grid-image">
+                <h2>Candidate Name</h2>
+                <input type="radio" name="gender" id="">
+                <button class="vote"><i class="fa-regular fa-thumbs-up fa-bounce"></i></button>
+            </div>
+
+            <div class="party gird-item">
+                <div class="details">
+                    <img src="/image/logo.png" alt="party-logo">
+                    <h3>Party Name</h3>
+                    <h4>Candidate Position</h4>
+                </div>
+
+                <img src="/image/vector.png" alt="candidate-pic" class="grid-image">
+                <h2>Candidate Name</h2>
+                <input type="radio" name="gender" id="">
+                <button class="vote"><i class="fa-regular fa-thumbs-up fa-bounce"></i></button>
+            </div>
+
+            <div class="party gird-item">
+                <div class="details">
+                    <img src="/image/logo.png" alt="party-logo">
+                    <h3>Party Name</h3>
+                    <h4>Candidate Position</h4>
+                </div>
+
+                <img src="/image/vector.png" alt="candidate-pic" class="grid-image">
+                <h2>Candidate Name</h2>
+                <input type="radio" name="gender" id="">
+                <button class="vote"><i class="fa-regular fa-thumbs-up fa-bounce"></i></button>
+            </div>
+            <div class="party gird-item">
+                <div class="details">
+                    <img src="/image/logo.png" alt="party-logo">
+                    <h3>Party Name</h3>
+                    <h4>Candidate Position</h4>
+                </div>
+
+                <img src="/image/vector.png" alt="candidate-pic" class="grid-image">
+                <h2>Candidate Name</h2>
+                <input type="radio" name="gender" id="">
+                <button class="vote"><i class="fa-regular fa-thumbs-up fa-bounce"></i></button>
+            </div>
+        </div>
+    </section>
+
+<script src="index.js"></script>
+</body>
+
+</html>

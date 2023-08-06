@@ -1,0 +1,14 @@
+This project was a plan brought-up by Cull-Ace,the idea was to create a voting website where by Total number of people registered in a community,
+country can Participate in the vote with stress-free, no violence and  peacefully, without the cause of election been rigid.
+
+
+Hi you can call me Cull-Ace by name, i was a secondry school graduate in the year 2017
+Open the code with your favourite text editor and 
+run it with live server to get a better result
+
+
+
+************IF YOU ARE INTERESTED IN WORKING WITH ME ON THIS PROJECT,
+KINDLY CONTACT ME ON oriemswitch@gmail.com *************
+
+Project started on '24th feb,2023'
